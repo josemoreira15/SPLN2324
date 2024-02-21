@@ -14,4 +14,4 @@ Como referido, o programa aceita, pela linha de comandos, diferentes opções, s
 
 De modo a oferecer alguma vantagem a nível informativo, no fim do resultado é mostrada uma mensagem a contabilizar o número total de palavras contabilizadas pela opção selecionada (quando selecionada) e o número de ocorrências somado das mesmas.
 
-Deste modo, foram escritas as funções auxiliares *case_insensitive*, *equal_len_keys*, *starter_char* e *sub* de forma a ajudarem na resolução do problema. Para efeito de testes, recorreu-se ao ficheiro [Camilo-Amor_de_Perdicao.md](Camilo-Amor_de_Perdicao.md](https://github.com/josemoreira15/SPLN2324/blob/main/TPC1/Camilo-Amor_de_Perdicao.md)https://github.com/josemoreira15/SPLN2324/blob/main/TPC1/Camilo-Amor_de_Perdicao.md), disponibilizado pela equipa docente.
+Deste modo, foram escritas as funções auxiliares *case_insensitive*, *equal_len_keys*, *starter_char* e *sub* de forma a ajudarem na resolução do problema. Para efeito de testes, recorreu-se ao ficheiro [Camilo-Amor_de_Perdicao](https://github.com/josemoreira15/SPLN2324/blob/main/TPC1/Camilo-Amor_de_Perdicao.md), disponibilizado pela equipa docente.
