@@ -1,7 +1,9 @@
 **Problema**
+
 Recorrendo às bibliotecas *jjcli*, *collections* e *re*, o objetivo prendia-se em elaborar um programa que conseguisse apresentar o número de ocorrências das palavras num texto, podendo, também, obter essas mesmas palavras a partir de queries: ordenadas decrescentemente, obtidas através de case insensitive, etc.
 
 **Solução**
+
 Em primeiro lugar, de modo a conseguir-se capturar as várias palavras de um texto, elaborou-se a função *tokenizer* que, recorrendo ao *re*, consegue identificar as várias palavras de um texto. Posteriormente, desenvolveu-se a função *beaut_print*, responsável por imprimir, com uma identação correta, o resultado final.
 Como referido, o programa aceita, pela linha de comandos, diferentes opções, sendo as mesmas:
     * -b S  : mostra as palavras cuja inicial pertence à string S (exemplo: se S for igual a "abc", serão mostradas todas as palavras que comecem por a, b ou c), ordenadas decrescentemente pelo número de occorências
