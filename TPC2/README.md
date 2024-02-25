@@ -1,7 +1,9 @@
 **Problema**
+
 Complementando o programa desenvolvido até à data, *wfreq*, pretendia-se fazer a comparação e o respetivo estudo entre número de ocorrências de uma palavra num texto, passado como _input_ e uma tabela de frequências da língua portuguesa.
 
 **Solução**
+
 Deste modo, procedeu-se, inicialmente, ao _download_ de uma tabela de frequências da língua portuguesa, recorrendo ao *Linguateca*. Posteriormente, desenvolveu-se uma função, *database_comparison*, responsável pelos seguintes passos:
     * carregar o ficheiro de frequências da língua portuguesa, guardando-o num dicionário (palavra -> número de ocorrências da palavra)
     * calcular, para cada palavra presente no texto _input_, a frequência de ocorrências nesse mesmo texto, dividida pela frequência de ocorrências na tabela
