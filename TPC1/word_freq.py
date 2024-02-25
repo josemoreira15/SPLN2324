@@ -23,7 +23,7 @@ from jjcli import *
 from collections import Counter
 import re
 
-cl = clfilter("b:il:m:ns:", doc=__doc__)     ## option values in cl.opt dictionary
+cl = clfilter("b:il:m:ns:", doc=__doc__)
 
 def tokenizer(content):
     tokens = re.findall(r'\w+(?:\-\w+)?|[,.;:?—!_]+', content)
@@ -73,7 +73,7 @@ def sub(content, ss):
     return ssd
 
 
-for txt in cl.text():      ## process one file at the time
+for txt in cl.text():
     tokens = tokenizer(txt)
     count = Counter(tokens)
 
