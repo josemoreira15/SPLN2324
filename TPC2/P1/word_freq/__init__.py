@@ -16,7 +16,11 @@ SYNOPSIS
         -s S : shows the words that have S as a substring (in descending order by value)
         no option : sorts descending by value
 
-Description'''
+DESCRIPTION
+
+FILES
+    database.txt : https://www.linguateca.pt/acesso/tokens/formas.totalpt.txt
+'''
 
 from jjcli import *
 from collections import Counter
@@ -34,8 +38,7 @@ def beaut_print(content):
     for key, value in content:
         space = (20 - len(key)) * ' '
         print(f'{key}{space}{value}')
-        count += value
-    
+        count += value  
 
 def smart_case_insensitive(content):
     sci = dict()
