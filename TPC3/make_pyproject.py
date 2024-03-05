@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+'''
+NAME
+    makepyproject - pyproject.toml generator
+'''
+
+
 import jinja2
 from glob import glob
 from pathlib import Path
